@@ -1,5 +1,9 @@
 // while loop -------------------------------------------
 
+// while (condition) {
+    
+// }
+
 let index = 0
 // while (index <= 10) {
 //     console.log(`value of index is ${index}`);
@@ -19,6 +23,9 @@ while (arr < myArray.length) {
 
 // do while loop -----------------------------------------------------------------
 
+// do {
+    
+// } while (condition);
 
 let score = 11
 do {

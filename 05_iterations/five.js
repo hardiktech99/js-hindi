@@ -1,4 +1,12 @@
+// for each -------------------------------------------------------
+
+
 const coding = ["js","ruby","python","java","cpp"]
+
+
+
+
+
 
 // coding.forEach( function (item) {
 //     console.log(item);

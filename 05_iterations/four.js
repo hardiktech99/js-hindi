@@ -1,6 +1,13 @@
 // for iN loop --------------------------------------------------------------
 
 
+// for (const key in object) {
+//     if (Object.prototype.hasOwnProperty.call(object, key)) {
+//         const element = object[key];
+        
+//     }
+// }
+
 const myObject = {
     js : "Javascript",
     cpp : "c++",
