@@ -9,7 +9,7 @@
 
 const month = "March"
 switch (month) {
-    case "Januar":
+    case "January":
         console.log("January");
         break;
     case "Feb":
