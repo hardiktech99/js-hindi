@@ -1,0 +1,58 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    line-height: 32px;
+    
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    line-height: 28px;
+    display: block;
+}
+nav{
+    background-color: #ddd;
+    border-bottom: 1px solid #000;
+    padding: 20px 0;
+}
+.canvas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    padding: 0 16px;
+    justify-content: center;
+}
+.canvas .button {
+    padding:50px;
+
+}
+.canvas .color-box {
+    display: grid;
+    gap: 8px;
+    grid-template-columns: auto auto;
+   
+}
+.canvas .color-box .button{
+    border: 2px solid #000;
+    cursor: pointer;
+}
+.canvas .color-box #grey{
+    background-color: grey;
+    
+}
+.canvas .color-box #white{
+    background-color:white;
+}
+.canvas .color-box #blue{
+    background-color:blue;
+}
+.canvas .color-box #yellow{
+    background-color:yellow;
+}
